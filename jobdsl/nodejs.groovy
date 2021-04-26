@@ -13,7 +13,7 @@ job ('nodejs job')
         nodejs('nodejs')
     }
     steps {
-        shell('node app.js')
+        shell('node test')
     }
 
 }
