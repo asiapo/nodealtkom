@@ -6,7 +6,7 @@ job ('nodejs job')
         node / gitConfigEmail('jenkins-dsl-script@altkom.com')
     }
     triggers {
-        scm('H/5 * * * * *')
+        scm('H/5 * * * *')
     }
     wrappers {
         nodejs('nodejs')
